@@ -2,10 +2,14 @@
 <html>
     <head>
         <style>
+            
             body {
                 background-color: rgb(255,255,255);
                 font-family: monospace;
                 text-align: center;
+            }
+            strong {
+                font-weight: bold;
             }
             h1 {
                 color: #1A64D6;
@@ -14,14 +18,17 @@
                 font-family: Arial, 'Helvetica', sans-serif;
                 font-size: 34px;
                 line-height: 48px;
+                margin: 0px;
+                display: block;
             }
             h2 {
                 color: #000000;
-                font-weight: bold;
+                font-weight: normal;
                 text-align: center;
                 font-family: Arial, 'Helvetica', sans-serif;
                 font-size: 34px;
                 line-height: 48px;
+                margin: 0px;
             }
             h3 {
                 color: #000000;
@@ -30,10 +37,16 @@
                 font-family: Arial, 'Helvetica', sans-serif;
                 font-size: 18.72px;
                 line-height: 25px;
+                display: block;
             }
             ul {
-                text-align: center;
-                list-style-type: none;
+                list-style-type: disc;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 40px;
+                display: block;
             }
             li {
                 color: #000000;
@@ -42,34 +55,47 @@
                 font-size: 18px;
                 line-height: 122.44px;
                 list-style: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 0px;
+                padding-right: 38px;
+                border-radius: 10px;
+                transition: all 200ms ease-in-out;
+                max-width: 400px;
+                margin: 0 auto;
+                display: block;
+            }
+            li:hover {
+                background-color: #FFFBEF
             }
             p {
-                color: #000000;
+                color: rgb(77,76,72);
                 text-align: center;
                 font-family: monospace;
                 font-size: 18px;
                 line-height: 22px;
+                display: block;
             }
             button {
-                color: rgb(255,255,255);
-                background-color: #1A64D6;
-                text-align: center;
-                font-family: 'Arial', Helvetica, sans-serif;
+                display: block;
+                margin: 20px auto;
+                background: #1a64d6;
                 font-size: 16px;
-                transition: all 300ms;
-                cursor: pointer;
+                line-height: 22px;
                 padding: 16px 24px;
-                border-radius: 25px;
-                border-color: #ffffff;
+                border-radius: 30px;
+                transition: all 200ms ease;
+                box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+                cursor: pointer;
+                border: 1px solid #1a64d6;
+                color: #ffffff;
             }
             button:hover {
                 color: #1A64D6;
                 background-color: #ffffff;
                 cursor: inherit;
             }
-            strong {
-                font-weight: bold;
-            }
+            
         </style>
     </head>
     <body>
@@ -93,7 +119,7 @@
             
             <li>
                 <h3>
-                    🌥Saturday
+                    🌥 Saturday
                 </h3>
                 <p>
                     15° / <strong>17°</strong>
@@ -102,7 +128,7 @@
 
             <li>
                 <h3>
-                    ☀️Sunday
+                    ☀️  Sunday
                 </h3>
                 <p>
                     25° / <strong>28°</strong>
@@ -113,5 +139,9 @@
         <button>
             Change city
         </button>
+
+        <p>
+            Coded by Matt Delac
+        </p>
     </body>
 </html>
