@@ -1,3 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
+        <style>
+            body {
+                background-color: rgb(255,255,255);
+                font-family: monospace;
+                text-align: center;
+            }
+            h1 {
+                color: #1A64D6;
+                font-weight: bold;
+                text-align: center;
+                font-family: Arial, 'Helvetica', sans-serif;
+                font-size: 34px;
+                line-height: 48px;
+            }
+            h2 {
+                color: #000000;
+                font-weight: bold;
+                text-align: center;
+                font-family: Arial, 'Helvetica', sans-serif;
+                font-size: 34px;
+                line-height: 48px;
+            }
+            h3 {
+                color: #000000;
+                font-weight: bold;
+                text-align: center;
+                font-family: Arial, 'Helvetica', sans-serif;
+                font-size: 18.72px;
+                line-height: 25px;
+            }
+            ul {
+                text-align: center;
+                list-style-type: none;
+            }
+            li {
+                color: #000000;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                line-height: 122.44px;
+                list-style: none;
+            }
+            p {
+                color: #000000;
+                text-align: center;
+                font-family: monospace;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            button {
+                color: rgb(255,255,255);
+                background-color: #1A64D6;
+                text-align: center;
+                font-family: 'Arial', Helvetica, sans-serif;
+                font-size: 16px;
+                cursor: auto;
+                transition: all 200ms ease-in-out;
+                cursor: pointer;
+                padding: 16px 24px;
+                margin: 20px 607px;
+            }
+            strong {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>  
+            🌤
+            <br>
+            Currently 21° in Tokyo
+        </h1>
+        <h2>
+            13° / <strong>23°</strong>
+        </h2>
+        <ul>
+            <li>
+                <h3>
+                    🌧 Tomorrow
+                </h3>
+                <p>
+                    10° / <strong>22°</strong>
+                </p>
+            </li>
+            
+            <li>
+                <h3>
+                    🌥 Saturday
+                </h3>
+                <p>
+                    15° / <strong>17°</strong>
+                </p>
+            </li>
+
+            <li>
+                <h3>
+                    ☀️ Sunday
+                </h3>
+                <p>
+                    25° / <strong>28°</strong>
+                </p>
+            </li>
+        </ul>
+
+        <button>
+            "Change city"
+        </button>
+    </body>
+</html>
