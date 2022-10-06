@@ -10,10 +10,13 @@ h2 {
 }
 
 p {
+    color: rgb(0, 0, 0);
     font-size: 18px;
+    display: block;
+    font-family: monospace, 'Calibri', sans-serif, 'Helvectica';
 }
 
 p:hover, ul:hover {
-    background-color: #f0dec6
+    background-color: #edd3b1
 }
 
