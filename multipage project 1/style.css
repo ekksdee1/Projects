@@ -11,12 +11,24 @@ h2 {
 
 p {
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     font-family: monospace, 'Calibri', sans-serif, 'Helvectica';
 }
 
+p footer {
+    color: rgb(0, 0, 0);
+    font-size: 6px;
+    display: block;
+    font-family: monospace, 'Calibri', sans-serif, 'Helvectica';
+    opacity: 49%;
+}
+
 p:hover, ul:hover {
     background-color: #edd3b1
+}
+
+ul {
+    list-style: none;
 }
 
