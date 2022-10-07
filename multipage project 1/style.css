@@ -24,11 +24,16 @@ p footer {
     opacity: 49%;
 }
 
-p:hover, ul:hover {
-    background-color: #edd3b1
-}
-
 ul {
     list-style: none;
 }
 
+ul:hover {
+    background-color: #eddac1
+}
+
+iframe {
+    border-style: solid;
+    border:rgb(0, 0, 0);
+    border-width: 4px;
+}
