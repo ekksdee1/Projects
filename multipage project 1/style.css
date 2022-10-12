@@ -46,6 +46,7 @@ iframe {
     float: right;
     height: 500px;
     width: 500px;
+    display: block;
 }
 
 img {
@@ -55,4 +56,5 @@ img {
     float: left;
     height: 300px;
     width: 233px;
+    display: block;
 }
