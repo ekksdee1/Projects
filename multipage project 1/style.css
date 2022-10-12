@@ -20,11 +20,10 @@ p {
 
 footer {
     color: rgb(0, 0, 0);
-    font-size: 6px;
+    font-size: 24px;
     display: block;
     font-family: monospace, 'Calibri', sans-serif, 'Helvectica';
     opacity: 49%;
-    position: absolute;
     width: 100%;
     height: 18px;
 }
@@ -55,6 +54,6 @@ img {
     border:rgb(0, 0, 0);
     border-width: 4px;
     float: left;
-    height: 450px;
-    width: 367px;
+    height: 300px;
+    width: 233px;
 }
