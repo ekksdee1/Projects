@@ -66,19 +66,46 @@ figcaption {
 
 }
 
-footer > p, footer > a {
+footer > p {
     display: block;
     align-items: center;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
     font-family: 'Helvetica', Calibri;
-    color: #117aca;
     opacity: 64%;
 }
 
+button {
+    display: inline;
+    margin: 20px auto;
+    background: #1a64d6;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+    cursor: pointer;
+    border: 1px solid #1a64d6;
+    color: #ffffff;
+}
+button:hover {
+    color: #1A64D6;
+    background-color: #ffffff;
+    cursor: inherit;
+}
+
+a {
+    color: #1A64D6;
+}
+
 a:visited {
-    color: #9f1bd7
+    color: #9f1bd7;
+}
+
+button > a {
+    color: rgb(0,0,0);
 }
 
 br {    
