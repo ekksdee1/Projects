@@ -35,9 +35,7 @@ ul {
     font-size: 36px;
     font-family: 'Calibri', Helvetica;
 }
-#homepage_main_semtag :hover {
-    background-color: #ffe3b9;
-}
+
 
 li {
     padding-top: 10px;
@@ -69,12 +67,18 @@ figcaption {
 }
 
 footer > p, footer > a {
+    display: block;
+    align-items: center;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
     font-family: 'Helvetica', Calibri;
-    color: #000000;
+    color: #117aca;
     opacity: 64%;
+}
+
+a :visited {
+    color: #9f1bd7
 }
 
 br {    
@@ -92,5 +96,9 @@ br {
 }
 
 .info :hover {
+    background-color: #ffe3b9;
+}
+
+#homepage_main_semtag :hover {
     background-color: #ffe3b9;
 }
