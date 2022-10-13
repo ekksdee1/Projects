@@ -77,7 +77,7 @@ footer > p, footer > a {
     opacity: 64%;
 }
 
-a :visited {
+a:visited {
     color: #9f1bd7
 }
 
@@ -95,10 +95,10 @@ br {
     border-width: 3px;
 }
 
-.info :hover {
+.info:hover {
     background-color: #ffe3b9;
 }
 
-#homepage_main_semtag :hover {
+#homepage_main_semtag:hover {
     background-color: #ffe3b9;
 }
