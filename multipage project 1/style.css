@@ -99,10 +99,12 @@ button > a:link, button > a:visited, button > a:active, button > a {
     text-decoration-line: none;
     text-decoration-color: none;
     color: rgb(255,255,255);
+    font-size: 24px;
 }
 
 button > a:hover {
     color: #1A64D6;
+    font-size: 24px;
 }
 
 a {
