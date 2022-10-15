@@ -88,23 +88,19 @@ button {
     box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
     cursor: pointer;
     border: 1px solid #1a64d6;
+    font-family: 'Helvetica', Calibri;
+    color: #ffffff;
 }
 button:hover {
     background-color: #ffffff;
     cursor: inherit;
-}
-
-button > a:link, button > a:visited, button > a:active, button > a {
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-color: none;
-    color: rgb(255,255,255);
-    font-size: 24px;
+    color: #1A64D6;
 }
 
 button > a:hover {
     color: #45608aea;
     font-size: 24px;
+    font-family: 'Helvetica', Calibri;
 }
 
 a {
