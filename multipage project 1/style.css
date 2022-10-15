@@ -97,12 +97,6 @@ button:hover {
     color: #1A64D6;
 }
 
-button > a:hover {
-    color: #45608aea;
-    font-size: 24px;
-    font-family: 'Helvetica', Calibri;
-}
-
 a {
     color: #1A64D6;
 }
